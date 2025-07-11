@@ -1,453 +1,105 @@
-# LeetCode Solutions
+# 🧠 LeetCode Practice by CarGDev
 
-## 🧠 Why This Repository Exists
+This repo tracks my journey solving LeetCode problems — not just code, but my thought process, reflections, and patterns I'm mastering.
 
-I'm practicing to master data structures, algorithms, and problem-solving patterns. This repository serves as my personal learning journey through LeetCode problems, helping me:
+## ✅ Progress
+- **Total Problems Solved**: 75+
+- **Notes Written**: 1+ (expanding soon)
+- **Categories Covered**: Arrays, Hash Maps, Dynamic Programming, Two Pointers, Binary Search, etc.
 
-- **Build algorithmic thinking** and problem-solving skills
-- **Master fundamental data structures** (arrays, linked lists, trees, graphs, etc.)
-- **Learn advanced algorithms** (dynamic programming, binary search, two pointers, etc.)
-- **Track my progress** and identify areas for improvement
-- **Create a reference library** of solutions for future review
+## 🗂 Directory Structure
+- `src/exercises/`: Auto-downloaded solutions via Cursor
+- `src/notes/`: My personal notes, approaches, and learning reflections
 
-## ✅ Progress Overview
+## 🧩 Problem Index
 
-### Current Status
-- **Problems Solved**: 90+ / 2000+ (LeetCode total)
-- **Success Rate**: ~95%
-- **Streak**: Active daily practice
-- **Languages**: Python (primary), TypeScript (secondary)
+| # | Title | Difficulty | Notes |
+|---|-------|------------|-------|
+| 001 | Two Sum | Easy | [View Notes](src/notes/001_two_sum.md) |
+| 002 | Add Two Numbers | Medium | [View Notes](src/notes/002_add_two_numbers.md) |
+| 003 | Longest Substring Without Repeating Characters | Medium | [View Notes](src/notes/003_longest_substring_without_repeating_characters.md) |
+| 004 | Median of Two Sorted Arrays | Hard | [View Notes](src/notes/004_median_of_two_sorted_arrays.md) |
+| 005 | Longest Palindromic Substring | Medium | [View Notes](src/notes/005_longest_palindromic_substring.md) |
+| 006 | Zigzag Conversion | Medium | [View Notes](src/notes/006_zigzag_conversion.md) |
+| 007 | Reverse Integer | Medium | [View Notes](src/notes/007_reverse_integer.md) |
+| 009 | Palindrome Number | Easy | [View Notes](src/notes/009_palindrome_number.md) |
+| 010 | Regular Expression Matching | Hard | [View Notes](src/notes/010_regular_expression_matching.md) |
+| 011 | Container With Most Water | Medium | [View Notes](src/notes/011_container_with_most_water.md) |
+| 013 | Roman to Integer | Easy | [View Notes](src/notes/013_roman_to_integer.md) |
+| 014 | Longest Common Prefix | Easy | [View Notes](src/notes/014_longest_common_prefix.md) |
+| 015 | 3Sum | Medium | [View Notes](src/notes/015_3sum.md) |
+| 020 | Valid Parentheses | Easy | [View Notes](src/notes/020_valid_parentheses.md) |
+| 021 | Merge Two Sorted Lists | Easy | [View Notes](src/notes/021_merge_two_sorted_lists.md) |
+| 022 | Generate Parentheses | Medium | [View Notes](src/notes/022_generate_parentheses.md) |
+| 028 | Find the Index of the First Occurrence in a String | Easy | [View Notes](src/notes/028_find_the_index_of_the_first_occurrence_in_a_string.md) |
+| 035 | Search Insert Position | Easy | [View Notes](src/notes/035_search_insert_position.md) |
+| 036 | Valid Sudoku | Medium | [View Notes](src/notes/036_valid_sudoku.md) |
+| 042 | Trapping Rain Water | Hard | [View Notes](src/notes/042_trapping_rain_water.md) |
+| 045 | Jump Game II | Medium | [View Notes](src/notes/045_jump_game_ii.md) |
+| 050 | Pow(x, n) | Medium | [View Notes](src/notes/050_powx_n.md) |
+| 055 | Jump Game | Medium | [View Notes](src/notes/055_jump_game.md) |
+| 066 | Plus One | Easy | [View Notes](src/notes/066_plus_one.md) |
+| 069 | Sqrt(x) | Easy | [View Notes](src/notes/069_sqrtx.md) |
+| 074 | Search a 2D Matrix | Medium | [View Notes](src/notes/074_search_a_2d_matrix.md) |
+| 080 | Remove Duplicates from Sorted Array II | Medium | [View Notes](src/notes/080_remove_duplicates_from_sorted_array_ii.md) |
+| 088 | Merge Sorted Array | Easy | [View Notes](src/notes/088_merge_sorted_array.md) |
+| 089 | Gray Code | Medium | [View Notes](src/notes/089_gray_code.md) |
+| 090 | Subsets II | Medium | [View Notes](src/notes/090_subsets_ii.md) |
+| 091 | Decode Ways | Medium | [View Notes](src/notes/091_decode_ways.md) |
+| 092 | Reverse Linked List II | Medium | [View Notes](src/notes/092_reverse_linked_list_ii.md) |
+| 121 | Best Time to Buy and Sell Stock | Easy | [View Notes](src/notes/121_best_time_to_buy_and_sell_stock.md) |
+| 122 | Best Time to Buy and Sell Stock II | Medium | [View Notes](src/notes/122_best_time_to_buy_and_sell_stock_ii.md) |
+| 125 | Valid Palindrome | Easy | [View Notes](src/notes/125_valid_palindrome.md) |
+| 128 | Longest Consecutive Sequence | Medium | [View Notes](src/notes/128_longest_consecutive_sequence.md) |
+| 135 | Candy | Hard | [View Notes](src/notes/135_candy.md) |
+| 141 | Linked List Cycle | Easy | [View Notes](src/notes/141_linked_list_cycle.md) |
+| 149 | Max Points on a Line | Hard | [View Notes](src/notes/149_max_points_on_a_line.md) |
+| 150 | Evaluate Reverse Polish Notation | Medium | [View Notes](src/notes/150_evaluate_reverse_polish_notation.md) |
+| 153 | Find Minimum in Rotated Sorted Array | Medium | [View Notes](src/notes/153_find_minimum_in_rotated_sorted_array.md) |
+| 155 | Min Stack | Medium | [View Notes](src/notes/155_min_stack.md) |
+| 167 | Two Sum II - Input Array Is Sorted | Medium | [View Notes](src/notes/167_two_sum_ii_input_array_is_sorted.md) |
+| 169 | Majority Element | Easy | [View Notes](src/notes/169_majority_element.md) |
+| 172 | Factorial Trailing Zeroes | Medium | [View Notes](src/notes/172_factorial_trailing_zeroes.md) |
+| 189 | Rotate Array | Medium | [View Notes](src/notes/189_rotate_array.md) |
+| 202 | Happy Number | Easy | [View Notes](src/notes/202_happy_number.md) |
+| 205 | Isomorphic Strings | Easy | [View Notes](src/notes/205_isomorphic_strings.md) |
+| 206 | Reverse Linked List | Easy | [View Notes](src/notes/206_reverse_linked_list.md) |
+| 217 | Contains Duplicate | Easy | [View Notes](src/notes/217_contains_duplicate.md) |
+| 219 | Contains Duplicate II | Easy | [View Notes](src/notes/219_contains_duplicate_ii.md) |
+| 228 | Summary Ranges | Easy | [View Notes](src/notes/228_summary_ranges.md) |
+| 238 | Product of Array Except Self | Medium | [View Notes](src/notes/238_product_of_array_except_self.md) |
+| 242 | Valid Anagram | Easy | [View Notes](src/notes/242_valid_anagram.md) |
+| 243 | Shortest Word Distance | Easy | [View Notes](src/notes/243_shortest_word_distance.md) |
+| 244 | Shortest Word Distance II | Medium | [View Notes](src/notes/244_shortest_word_distance_ii.md) |
+| 245 | Shortest Word Distance III | Medium | [View Notes](src/notes/245_shortest_word_distance_iii.md) |
+| 246 | Strobogrammatic Number | Easy | [View Notes](src/notes/246_strobogrammatic_number.md) |
+| 248 | Strobogrammatic Number III | Hard | [View Notes](src/notes/248_strobogrammatic_number_iii.md) |
+| 290 | Word Pattern | Easy | [View Notes](src/notes/290_word_pattern.md) |
+| 383 | Ransom Note | Easy | [View Notes](src/notes/383_ransom_note.md) |
+| 392 | Is Subsequence | Easy | [View Notes](src/notes/392_is_subsequence.md) |
+| 704 | Binary Search | Easy | [View Notes](src/notes/704_binary_search.md) |
+| 875 | Koko Eating Bananas | Medium | [View Notes](src/notes/875_koko_eating_bananas.md) |
+| 990 | Satisfiability of Equality Equations | Medium | [View Notes](src/notes/990_satisfiability_of_equality_equations.md) |
+| 1200 | Minimum Absolute Difference | Easy | [View Notes](src/notes/1200_minimum_absolute_difference.md) |
+| 1298 | Maximum Candies You Can Get from Boxes | Medium | [View Notes](src/notes/1298_maximum_candies_you_can_get_from_boxes.md) |
+| 1820 | Maximum Number of Accepted Invitations | Medium | [View Notes](src/notes/1820_maximum_number_of_accepted_invitations.md) |
+| 2040 | Kth Smallest Product of Two Sorted Arrays | Medium | [View Notes](src/notes/2040_kth_smallest_product_of_two_sorted_arrays.md) |
+| 2053 | Kth Distinct String in an Array | Easy | [View Notes](src/notes/2053_kth_distinct_string_in_an_array.md) |
+| 2116 | Check if a Parentheses String Can Be Valid | Medium | [View Notes](src/notes/2116_check_if_a_parentheses_string_can_be_valid.md) |
+| 2294 | Partition Array Such That Maximum Difference Is K | Medium | [View Notes](src/notes/2294_partition_array_such_that_maximum_difference_is_k.md) |
+| 2441 | Largest Positive Integer That Exists With Its Negative | Easy | [View Notes](src/notes/2441_largest_positive_integer_that_exists_with_its_negative.md) |
+| 2616 | Minimize the Maximum Difference of Pairs | Medium | [View Notes](src/notes/2616_minimize_the_maximum_difference_of_pairs.md) |
+| 2966 | Divide Array Into Arrays With Max Difference | Medium | [View Notes](src/notes/2966_divide_array_into_arrays_with_max_difference.md) |
+| 3442 | Maximum Difference Between Even and Odd Frequency I | Easy | [View Notes](src/notes/3442_maximum_difference_between_even_and_odd_frequency_i.md) |
+| 3445 | Maximum Difference Between Even and Odd Frequency II | Easy | [View Notes](src/notes/3445_maximum_difference_between_even_and_odd_frequency_ii.md) |
 
-### Difficulty Breakdown
-| Difficulty | Count | Percentage |
-|------------|-------|------------|
-| 🟢 Easy    | ~40   | 44%        |
-| 🟡 Medium  | ~45   | 50%        |
-| 🔴 Hard    | ~5    | 6%         |
-
-### Recent Activity
-- **Last Solved**: Multiple problems this week
-- **Focus Areas**: Dynamic Programming, Graph Algorithms
-- **Next Goals**: Advanced tree problems, system design concepts
-
-## 🧩 Topics Covered
-
-### ✅ Mastered
-- **Arrays & Strings** - Two pointers, sliding window, prefix sums
-- **Hash Tables** - Lookup optimization, frequency counting
-- **Binary Search** - Standard and rotated array variations
-- **Two Pointers** - Array manipulation, linked list operations
-- **Basic Dynamic Programming** - Memoization, tabulation
-
-### 🔄 In Progress
-- **Advanced DP** - State compression, optimization techniques
-- **Graph Algorithms** - BFS, DFS, topological sorting
-- **Tree Structures** - Binary trees, BST operations
-- **Advanced Data Structures** - Heaps, Tries, Union-Find
-
-### 📚 Planned
-- **System Design** - Scalability, distributed systems
-- **Advanced Algorithms** - Segment trees, advanced graph algorithms
-- **Competitive Programming** - Advanced optimization techniques
-
-## 📋 Problem Checklist
-
-### Core Data Structures
-| Topic | Easy | Medium | Hard | Total |
-|-------|------|--------|------|-------|
-| **Arrays** | 15 | 20 | 2 | 37 |
-| **Strings** | 8 | 12 | 1 | 21 |
-| **Linked Lists** | 1 | 4 | 0 | 5 |
-| **Trees** | 0 | 0 | 0 | 0 |
-| **Graphs** | 0 | 2 | 0 | 2 |
-| **Stacks/Queues** | 2 | 3 | 0 | 5 |
-
-### Algorithmic Techniques
-| Technique | Easy | Medium | Hard | Total |
-|-----------|------|--------|------|-------|
-| **Hash Tables** | 8 | 12 | 0 | 20 |
-| **Two Pointers** | 6 | 15 | 0 | 21 |
-| **Binary Search** | 2 | 8 | 0 | 10 |
-| **Dynamic Programming** | 0 | 8 | 0 | 8 |
-| **Greedy** | 0 | 6 | 0 | 6 |
-| **Backtracking** | 0 | 3 | 0 | 3 |
-| **Sliding Window** | 1 | 1 | 0 | 2 |
-
-### Problem Categories
-| Category | Count | Mastery Level |
-|----------|-------|---------------|
-| **Array Manipulation** | 25 | ⭐⭐⭐⭐⭐ |
-| **String Processing** | 18 | ⭐⭐⭐⭐ |
-| **Hash Table Usage** | 20 | ⭐⭐⭐⭐⭐ |
-| **Binary Search** | 10 | ⭐⭐⭐⭐ |
-| **Dynamic Programming** | 8 | ⭐⭐⭐ |
-| **Two Pointers** | 21 | ⭐⭐⭐⭐⭐ |
-| **Linked Lists** | 5 | ⭐⭐⭐ |
-| **Graphs** | 2 | ⭐⭐ |
-| **Stacks/Queues** | 5 | ⭐⭐⭐ |
-
-## 🎯 Learning Roadmap
-
-### Phase 1: Fundamentals ✅
-- [x] Basic array operations
-- [x] String manipulation
-- [x] Hash table implementations
-- [x] Two pointer techniques
-- [x] Basic binary search
-
-### Phase 2: Intermediate 🔄
-- [x] Dynamic programming basics
-- [x] Linked list operations
-- [x] Stack and queue problems
-- [x] Greedy algorithms
-- [ ] Tree traversal algorithms
-- [ ] Graph basics (BFS/DFS)
-
-### Phase 3: Advanced 📚
-- [ ] Advanced DP techniques
-- [ ] Advanced tree structures
-- [ ] Graph algorithms
-- [ ] System design concepts
-- [ ] Competitive programming
-
-### Phase 4: Mastery 🏆
-- [ ] Advanced optimization
-- [ ] Algorithm design
-- [ ] Interview preparation
-- [ ] Teaching others
-
----
-
-This repository contains my solutions to various LeetCode problems. Each solution is implemented in Python and follows a consistent structure.
-
-## 📊 Statistics
-- **Total Problems Solved**: 90+
-- **Languages**: Python, TypeScript
-- **Difficulty Distribution**: Easy, Medium, Hard
-
-## 📁 Solutions Index
-
-### 🔢 Arrays & Strings
-
-#### Easy
-- [1. Two Sum](src/exercises/1.two-sum.py) - Hash Table, Array
-- [9. Palindrome Number](src/exercises/9.palindrome-number.py) - Math
-- [13. Roman to Integer](src/exercises/13.roman-to-integer.py) - Hash Table, Math, String
-- [14. Longest Common Prefix](src/exercises/14.longest-common-prefix.py) - String, Trie
-- [20. Valid Parentheses](src/exercises/20.valid-parentheses.py) - Stack, String
-- [21. Merge Two Sorted Lists](src/exercises/21.merge-two-sorted-lists.py) - Linked List, Recursion
-- [26. Remove Duplicates from Sorted Array](src/exercises/80.remove-duplicates-from-sorted-array-ii.py) - Array, Two Pointers
-- [27. Remove Element](src/exercises/80.remove-duplicates-from-sorted-array-ii.py) - Array, Two Pointers
-- [28. Find the Index of the First Occurrence in a String](src/exercises/28.find-the-index-of-the-first-occurrence-in-a-string.py) - String, Two Pointers
-- [35. Search Insert Position](src/exercises/35.search-insert-position.py) - Array, Binary Search
-- [66. Plus One](src/exercises/66.plus-one.py) - Array, Math
-- [69. Sqrt(x)](src/exercises/69.sqrtx.py) - Math, Binary Search
-- [88. Merge Sorted Array](src/exercises/88.merge-sorted-array.py) - Array, Two Pointers
-- [125. Valid Palindrome](src/exercises/125.valid-palindrome.py) - String, Two Pointers
-- [169. Majority Element](src/exercises/169.majority-element.py) - Array, Hash Table, Divide and Conquer
-- [202. Happy Number](src/exercises/202.happy-number.py) - Hash Table, Math, Two Pointers
-- [205. Isomorphic Strings](src/exercises/205.isomorphic-strings.py) - Hash Table, String
-- [217. Contains Duplicate](src/exercises/217.contains-duplicate.py) - Array, Hash Table, Sorting
-- [219. Contains Duplicate II](src/exercises/219.contains-duplicate-ii.py) - Array, Hash Table, Sliding Window
-- [242. Valid Anagram](src/exercises/242.valid-anagram.py) - String, Sorting, Hash Table
-- [290. Word Pattern](src/exercises/290.word-pattern.py) - Hash Table, String
-- [383. Ransom Note](src/exercises/383.ransom-note.py) - String, Hash Table, Counting
-- [392. Is Subsequence](src/exercises/392.is-subsequence.py) - String, Two Pointers, Dynamic Programming
-- [704. Binary Search](src/exercises/704.binary-search.py) - Array, Binary Search
-- [1200. Minimum Absolute Difference](src/exercises/1200.minimum-absolute-difference.py) - Array, Sorting
-- [2053. Kth Distinct String in an Array](src/exercises/2053.kth-distinct-string-in-an-array.py) - Array, Hash Table, String
-- [2441. Largest Positive Integer That Exists With Its Negative](src/exercises/2441.largest-positive-integer-that-exists-with-its-negative.py) - Array, Hash Table, Two Pointers
-
-#### Medium
-- [2. Add Two Numbers](src/exercises/2.add-two-numbers.py) - Linked List, Math, Recursion
-- [3. Longest Substring Without Repeating Characters](src/exercises/3.longest-substring-without-repeating-characters.py) - Hash Table, String, Sliding Window
-- [3. Longest Substring Without Repeating Characters (TypeScript)](src/exercises/3.longest-substring-without-repeating-characters.ts) - Hash Table, String, Sliding Window
-- [4. Median of Two Sorted Arrays](src/exercises/4.median-of-two-sorted-arrays.py) - Array, Binary Search, Divide and Conquer
-- [5. Longest Palindromic Substring](src/exercises/5.longest-palindromic-substring.py) - String, Dynamic Programming
-- [6. Zigzag Conversion](src/exercises/6.zigzag-conversion.py) - String
-- [7. Reverse Integer](src/exercises/7.reverse-integer.py) - Math
-- [10. Regular Expression Matching](src/exercises/10.regular-expression-matching.py) - String, Dynamic Programming, Recursion
-- [11. Container With Most Water](src/exercises/11.container-with-most-water.py) - Array, Two Pointers, Greedy
-- [15. 3Sum](src/exercises/15.3sum.py) - Array, Two Pointers, Sorting
-- [22. Generate Parentheses](src/exercises/22.generate-parentheses.py) - String, Dynamic Programming, Backtracking
-- [36. Valid Sudoku](src/exercises/36.valid-sudoku.py) - Array, Hash Table, Matrix
-- [42. Trapping Rain Water](src/exercises/42.trapping-rain-water.py) - Array, Two Pointers, Dynamic Programming, Stack
-- [45. Jump Game II](src/exercises/45.jump-game-ii.py) - Array, Dynamic Programming, Greedy
-- [50. Pow(x, n)](src/exercises/50.powx-n.py) - Math, Recursion
-- [55. Jump Game](src/exercises/55.jump-game.py) - Array, Dynamic Programming, Greedy
-- [74. Search a 2D Matrix](src/exercises/74.search-a-2d-matrix.py) - Array, Binary Search, Matrix
-- [80. Remove Duplicates from Sorted Array II](src/exercises/80.remove-duplicates-from-sorted-array-ii.py) - Array, Two Pointers
-- [89. Gray Code](src/exercises/89.gray-code.py) - Math, Backtracking, Bit Manipulation
-- [90. Subsets II](src/exercises/90.subsets-ii.py) - Array, Backtracking, Bit Manipulation
-- [91. Decode Ways](src/exercises/91.decode-ways.py) - String, Dynamic Programming
-- [92. Reverse Linked List II](src/exercises/92.reverse-linked-list-ii.py) - Linked List
-- [121. Best Time to Buy and Sell Stock](src/exercises/121.best-time-to-buy-and-sell-stock.py) - Array, Dynamic Programming
-- [122. Best Time to Buy and Sell Stock II](src/exercises/122.best-time-to-buy-and-sell-stock-ii.py) - Array, Dynamic Programming, Greedy
-- [128. Longest Consecutive Sequence](src/exercises/128.longest-consecutive-sequence.py) - Array, Hash Table, Union Find
-- [135. Candy](src/exercises/135.candy.py) - Array, Greedy
-- [141. Linked List Cycle](src/exercises/141.linked-list-cycle.py) - Hash Table, Linked List, Two Pointers
-- [149. Max Points on a Line](src/exercises/149.max-points-on-a-line.py) - Array, Hash Table, Math, Geometry
-- [150. Evaluate Reverse Polish Notation](src/exercises/150.evaluate-reverse-polish-notation.py) - Array, Math, Stack
-- [153. Find Minimum in Rotated Sorted Array](src/exercises/153.find-minimum-in-rotated-sorted-array.py) - Array, Binary Search
-- [155. Min Stack](src/exercises/155.min-stack.py) - Stack, Design
-- [167. Two Sum II - Input Array Is Sorted](src/exercises/167.two-sum-ii-input-array-is-sorted.py) - Array, Two Pointers, Binary Search
-- [172. Factorial Trailing Zeroes](src/exercises/172.factorial-trailing-zeroes.py) - Math
-- [189. Rotate Array](src/exercises/189.rotate-array.py) - Array, Math, Two Pointers
-- [206. Reverse Linked List](src/exercises/206.reverse-linked-list.py) - Linked List, Recursion
-- [228. Summary Ranges](src/exercises/228.summary-ranges.py) - Array
-- [238. Product of Array Except Self](src/exercises/238.product-of-array-except-self.py) - Array, Prefix Sum
-- [246. Strobogrammatic Number](src/exercises/246.strobogrammatic-number.py) - Hash Table, Two Pointers, String
-- [248. Strobogrammatic Number III](src/exercises/248.strobogrammatic-number-iii.py) - Math, Recursion
-- [243. Shortest Word Distance](src/exercises/243.shortest-word-distance.py) - Array, String
-- [244. Shortest Word Distance II](src/exercises/244.shortest-word-distance-ii.py) - Array, Hash Table, Design, Two Pointers
-- [245. Shortest Word Distance III](src/exercises/245.shortest-word-distance-iii.py) - Array, String
-- [875. Koko Eating Bananas](src/exercises/875.koko-eating-bananas.py) - Array, Binary Search
-- [990. Satisfiability of Equality Equations](src/exercises/990.satisfiability-of-equality-equations.py) - Array, Union Find, Graph
-- [1298. Maximum Candies You Can Get from Boxes](src/exercises/1298.maximum-candies-you-can-get-from-boxes.py) - Breadth-First Search, Array
-- [1820. Maximum Number of Accepted Invitations](src/exercises/1820.maximum-number-of-accepted-invitations.py) - Graph, Backtracking
-- [2040. Kth Smallest Product of Two Sorted Arrays](src/exercises/2040.kth-smallest-product-of-two-sorted-arrays.py) - Array, Binary Search
-- [2116. Check if a Parentheses String Can Be Valid](src/exercises/2116.check-if-a-parentheses-string-can-be-valid.py) - String, Stack, Greedy
-- [2294. Partition Array Such That Maximum Difference Is K](src/exercises/2294.partition-array-such-that-maximum-difference-is-k.py) - Array, Greedy, Sorting
-- [2616. Minimize the Maximum Difference of Pairs](src/exercises/2616.minimize-the-maximum-difference-of-pairs.py) - Array, Binary Search, Greedy
-- [2966. Divide Array Into Arrays With Max Difference](src/exercises/2966.divide-array-into-arrays-with-max-difference.py) - Array, Greedy, Sorting
-- [3442. Maximum Difference Between Even and Odd Frequency I](src/exercises/3442.maximum-difference-between-even-and-odd-frequency-i.py) - Array, Hash Table
-- [3445. Maximum Difference Between Even and Odd Frequency II](src/exercises/3445.maximum-difference-between-even-and-odd-frequency-ii.py) - Array, Hash Table
-
-### 🔗 Linked Lists
-- [2. Add Two Numbers](src/exercises/2.add-two-numbers.py) - Linked List, Math, Recursion
-- [21. Merge Two Sorted Lists](src/exercises/21.merge-two-sorted-lists.py) - Linked List, Recursion
-- [92. Reverse Linked List II](src/exercises/92.reverse-linked-list-ii.py) - Linked List
-- [141. Linked List Cycle](src/exercises/141.linked-list-cycle.py) - Hash Table, Linked List, Two Pointers
-- [206. Reverse Linked List](src/exercises/206.reverse-linked-list.py) - Linked List, Recursion
-
-### 🌳 Trees & Graphs
-- [1298. Maximum Candies You Can Get from Boxes](src/exercises/1298.maximum-candies-you-can-get-from-boxes.py) - Breadth-First Search, Array
-- [1820. Maximum Number of Accepted Invitations](src/exercises/1820.maximum-number-of-accepted-invitations.py) - Graph, Backtracking
-- [990. Satisfiability of Equality Equations](src/exercises/990.satisfiability-of-equality-equations.py) - Array, Union Find, Graph
-
-### 🔍 Binary Search
-- [4. Median of Two Sorted Arrays](src/exercises/4.median-of-two-sorted-arrays.py) - Array, Binary Search, Divide and Conquer
-- [35. Search Insert Position](src/exercises/35.search-insert-position.py) - Array, Binary Search
-- [50. Pow(x, n)](src/exercises/50.powx-n.py) - Math, Recursion
-- [69. Sqrt(x)](src/exercises/69.sqrtx.py) - Math, Binary Search
-- [74. Search a 2D Matrix](src/exercises/74.search-a-2d-matrix.py) - Array, Binary Search, Matrix
-- [153. Find Minimum in Rotated Sorted Array](src/exercises/153.find-minimum-in-rotated-sorted-array.py) - Array, Binary Search
-- [167. Two Sum II - Input Array Is Sorted](src/exercises/167.two-sum-ii-input-array-is-sorted.py) - Array, Two Pointers, Binary Search
-- [704. Binary Search](src/exercises/704.binary-search.py) - Array, Binary Search
-- [875. Koko Eating Bananas](src/exercises/875.koko-eating-bananas.py) - Array, Binary Search
-- [2040. Kth Smallest Product of Two Sorted Arrays](src/exercises/2040.kth-smallest-product-of-two-sorted-arrays.py) - Array, Binary Search
-- [2616. Minimize the Maximum Difference of Pairs](src/exercises/2616.minimize-the-maximum-difference-of-pairs.py) - Array, Binary Search, Greedy
-
-### 🧮 Dynamic Programming
-- [5. Longest Palindromic Substring](src/exercises/5.longest-palindromic-substring.py) - String, Dynamic Programming
-- [10. Regular Expression Matching](src/exercises/10.regular-expression-matching.py) - String, Dynamic Programming, Recursion
-- [22. Generate Parentheses](src/exercises/22.generate-parentheses.py) - String, Dynamic Programming, Backtracking
-- [42. Trapping Rain Water](src/exercises/42.trapping-rain-water.py) - Array, Two Pointers, Dynamic Programming, Stack
-- [45. Jump Game II](src/exercises/45.jump-game-ii.py) - Array, Dynamic Programming, Greedy
-- [55. Jump Game](src/exercises/55.jump-game.py) - Array, Dynamic Programming, Greedy
-- [91. Decode Ways](src/exercises/91.decode-ways.py) - String, Dynamic Programming
-- [121. Best Time to Buy and Sell Stock](src/exercises/121.best-time-to-buy-and-sell-stock.py) - Array, Dynamic Programming
-- [122. Best Time to Buy and Sell Stock II](src/exercises/122.best-time-to-buy-and-sell-stock-ii.py) - Array, Dynamic Programming, Greedy
-- [128. Longest Consecutive Sequence](src/exercises/128.longest-consecutive-sequence.py) - Array, Hash Table, Union Find
-- [135. Candy](src/exercises/135.candy.py) - Array, Greedy
-- [392. Is Subsequence](src/exercises/392.is-subsequence.py) - String, Two Pointers, Dynamic Programming
-
-### 🎯 Two Pointers
-- [3. Longest Substring Without Repeating Characters](src/exercises/3.longest-substring-without-repeating-characters.py) - Hash Table, String, Sliding Window
-- [11. Container With Most Water](src/exercises/11.container-with-most-water.py) - Array, Two Pointers, Greedy
-- [15. 3Sum](src/exercises/15.3sum.py) - Array, Two Pointers, Sorting
-- [26. Remove Duplicates from Sorted Array](src/exercises/80.remove-duplicates-from-sorted-array-ii.py) - Array, Two Pointers
-- [27. Remove Element](src/exercises/80.remove-duplicates-from-sorted-array-ii.py) - Array, Two Pointers
-- [28. Find the Index of the First Occurrence in a String](src/exercises/28.find-the-index-of-the-first-occurrence-in-a-string.py) - String, Two Pointers
-- [42. Trapping Rain Water](src/exercises/42.trapping-rain-water.py) - Array, Two Pointers, Dynamic Programming, Stack
-- [80. Remove Duplicates from Sorted Array II](src/exercises/80.remove-duplicates-from-sorted-array-ii.py) - Array, Two Pointers
-- [88. Merge Sorted Array](src/exercises/88.merge-sorted-array.py) - Array, Two Pointers
-- [125. Valid Palindrome](src/exercises/125.valid-palindrome.py) - String, Two Pointers
-- [141. Linked List Cycle](src/exercises/141.linked-list-cycle.py) - Hash Table, Linked List, Two Pointers
-- [167. Two Sum II - Input Array Is Sorted](src/exercises/167.two-sum-ii-input-array-is-sorted.py) - Array, Two Pointers, Binary Search
-- [189. Rotate Array](src/exercises/189.rotate-array.py) - Array, Math, Two Pointers
-- [202. Happy Number](src/exercises/202.happy-number.py) - Hash Table, Math, Two Pointers
-- [219. Contains Duplicate II](src/exercises/219.contains-duplicate-ii.py) - Array, Hash Table, Sliding Window
-- [243. Shortest Word Distance](src/exercises/243.shortest-word-distance.py) - Array, String
-- [244. Shortest Word Distance II](src/exercises/244.shortest-word-distance-ii.py) - Array, Hash Table, Design, Two Pointers
-- [245. Shortest Word Distance III](src/exercises/245.shortest-word-distance-iii.py) - Array, String
-- [246. Strobogrammatic Number](src/exercises/246.strobogrammatic-number.py) - Hash Table, Two Pointers, String
-- [392. Is Subsequence](src/exercises/392.is-subsequence.py) - String, Two Pointers, Dynamic Programming
-- [2441. Largest Positive Integer That Exists With Its Negative](src/exercises/2441.largest-positive-integer-that-exists-with-its-negative.py) - Array, Hash Table, Two Pointers
-
-### 🗃️ Hash Tables
-- [1. Two Sum](src/exercises/1.two-sum.py) - Hash Table, Array
-- [13. Roman to Integer](src/exercises/13.roman-to-integer.py) - Hash Table, Math, String
-- [20. Valid Parentheses](src/exercises/20.valid-parentheses.py) - Stack, String
-- [36. Valid Sudoku](src/exercises/36.valid-sudoku.py) - Array, Hash Table, Matrix
-- [141. Linked List Cycle](src/exercises/141.linked-list-cycle.py) - Hash Table, Linked List, Two Pointers
-- [149. Max Points on a Line](src/exercises/149.max-points-on-a-line.py) - Array, Hash Table, Math, Geometry
-- [169. Majority Element](src/exercises/169.majority-element.py) - Array, Hash Table, Divide and Conquer
-- [202. Happy Number](src/exercises/202.happy-number.py) - Hash Table, Math, Two Pointers
-- [205. Isomorphic Strings](src/exercises/205.isomorphic-strings.py) - Hash Table, String
-- [217. Contains Duplicate](src/exercises/217.contains-duplicate.py) - Array, Hash Table, Sorting
-- [219. Contains Duplicate II](src/exercises/219.contains-duplicate-ii.py) - Array, Hash Table, Sliding Window
-- [242. Valid Anagram](src/exercises/242.valid-anagram.py) - String, Sorting, Hash Table
-- [243. Shortest Word Distance](src/exercises/243.shortest-word-distance.py) - Array, String
-- [244. Shortest Word Distance II](src/exercises/244.shortest-word-distance-ii.py) - Array, Hash Table, Design, Two Pointers
-- [246. Strobogrammatic Number](src/exercises/246.strobogrammatic-number.py) - Hash Table, Two Pointers, String
-- [290. Word Pattern](src/exercises/290.word-pattern.py) - Hash Table, String
-- [383. Ransom Note](src/exercises/383.ransom-note.py) - String, Hash Table, Counting
-- [128. Longest Consecutive Sequence](src/exercises/128.longest-consecutive-sequence.py) - Array, Hash Table, Union Find
-- [2053. Kth Distinct String in an Array](src/exercises/2053.kth-distinct-string-in-an-array.py) - Array, Hash Table, String
-- [2441. Largest Positive Integer That Exists With Its Negative](src/exercises/2441.largest-positive-integer-that-exists-with-its-negative.py) - Array, Hash Table, Two Pointers
-- [3442. Maximum Difference Between Even and Odd Frequency I](src/exercises/3442.maximum-difference-between-even-and-odd-frequency-i.py) - Array, Hash Table
-- [3445. Maximum Difference Between Even and Odd Frequency II](src/exercises/3445.maximum-difference-between-even-and-odd-frequency-ii.py) - Array, Hash Table
-
-### 📚 Stacks & Queues
-- [20. Valid Parentheses](src/exercises/20.valid-parentheses.py) - Stack, String
-- [42. Trapping Rain Water](src/exercises/42.trapping-rain-water.py) - Array, Two Pointers, Dynamic Programming, Stack
-- [150. Evaluate Reverse Polish Notation](src/exercises/150.evaluate-reverse-polish-notation.py) - Array, Math, Stack
-- [155. Min Stack](src/exercises/155.min-stack.py) - Stack, Design
-- [2116. Check if a Parentheses String Can Be Valid](src/exercises/2116.check-if-a-parentheses-string-can-be-valid.py) - String, Stack, Greedy
-
-### 🔄 Backtracking
-- [22. Generate Parentheses](src/exercises/22.generate-parentheses.py) - String, Dynamic Programming, Backtracking
-- [89. Gray Code](src/exercises/89.gray-code.py) - Math, Backtracking, Bit Manipulation
-- [90. Subsets II](src/exercises/90.subsets-ii.py) - Array, Backtracking, Bit Manipulation
-- [1820. Maximum Number of Accepted Invitations](src/exercises/1820.maximum-number-of-accepted-invitations.py) - Graph, Backtracking
-
-### 🎲 Greedy
-- [11. Container With Most Water](src/exercises/11.container-with-most-water.py) - Array, Two Pointers, Greedy
-- [45. Jump Game II](src/exercises/45.jump-game-ii.py) - Array, Dynamic Programming, Greedy
-- [55. Jump Game](src/exercises/55.jump-game.py) - Array, Dynamic Programming, Greedy
-- [122. Best Time to Buy and Sell Stock II](src/exercises/122.best-time-to-buy-and-sell-stock-ii.py) - Array, Dynamic Programming, Greedy
-- [135. Candy](src/exercises/135.candy.py) - Array, Greedy
-- [2116. Check if a Parentheses String Can Be Valid](src/exercises/2116.check-if-a-parentheses-string-can-be-valid.py) - String, Stack, Greedy
-- [2294. Partition Array Such That Maximum Difference Is K](src/exercises/2294.partition-array-such-that-maximum-difference-is-k.py) - Array, Greedy, Sorting
-- [2616. Minimize the Maximum Difference of Pairs](src/exercises/2616.minimize-the-maximum-difference-of-pairs.py) - Array, Binary Search, Greedy
-- [2966. Divide Array Into Arrays With Max Difference](src/exercises/2966.divide-array-into-arrays-with-max-difference.py) - Array, Greedy, Sorting
-
-### 🔢 Math
-- [7. Reverse Integer](src/exercises/7.reverse-integer.py) - Math
-- [9. Palindrome Number](src/exercises/9.palindrome-number.py) - Math
-- [13. Roman to Integer](src/exercises/13.roman-to-integer.py) - Hash Table, Math, String
-- [50. Pow(x, n)](src/exercises/50.powx-n.py) - Math, Recursion
-- [66. Plus One](src/exercises/66.plus-one.py) - Array, Math
-- [69. Sqrt(x)](src/exercises/69.sqrtx.py) - Math, Binary Search
-- [89. Gray Code](src/exercises/89.gray-code.py) - Math, Backtracking, Bit Manipulation
-- [149. Max Points on a Line](src/exercises/149.max-points-on-a-line.py) - Array, Hash Table, Math, Geometry
-- [172. Factorial Trailing Zeroes](src/exercises/172.factorial-trailing-zeroes.py) - Math
-- [189. Rotate Array](src/exercises/189.rotate-array.py) - Array, Math, Two Pointers
-- [202. Happy Number](src/exercises/202.happy-number.py) - Hash Table, Math, Two Pointers
-- [150. Evaluate Reverse Polish Notation](src/exercises/150.evaluate-reverse-polish-notation.py) - Array, Math, Stack
-
-### 🧮 Bit Manipulation
-- [89. Gray Code](src/exercises/89.gray-code.py) - Math, Backtracking, Bit Manipulation
-- [90. Subsets II](src/exercises/90.subsets-ii.py) - Array, Backtracking, Bit Manipulation
-
-### 🏗️ Design
-- [155. Min Stack](src/exercises/155.min-stack.py) - Stack, Design
-- [244. Shortest Word Distance II](src/exercises/244.shortest-word-distance-ii.py) - Array, Hash Table, Design, Two Pointers
-
-### 🔗 Union Find
-- [128. Longest Consecutive Sequence](src/exercises/128.longest-consecutive-sequence.py) - Array, Hash Table, Union Find
-- [990. Satisfiability of Equality Equations](src/exercises/990.satisfiability-of-equality-equations.py) - Array, Union Find, Graph
-
-### 📊 Sorting
-- [15. 3Sum](src/exercises/15.3sum.py) - Array, Two Pointers, Sorting
-- [80. Remove Duplicates from Sorted Array II](src/exercises/80.remove-duplicates-from-sorted-array-ii.py) - Array, Two Pointers
-- [88. Merge Sorted Array](src/exercises/88.merge-sorted-array.py) - Array, Two Pointers
-- [1200. Minimum Absolute Difference](src/exercises/1200.minimum-absolute-difference.py) - Array, Sorting
-- [217. Contains Duplicate](src/exercises/217.contains-duplicate.py) - Array, Hash Table, Sorting
-- [242. Valid Anagram](src/exercises/242.valid-anagram.py) - String, Sorting, Hash Table
-- [2294. Partition Array Such That Maximum Difference Is K](src/exercises/2294.partition-array-such-that-maximum-difference-is-k.py) - Array, Greedy, Sorting
-- [2966. Divide Array Into Arrays With Max Difference](src/exercises/2966.divide-array-into-arrays-with-max-difference.py) - Array, Greedy, Sorting
-
-### 🔄 Recursion
-- [2. Add Two Numbers](src/exercises/2.add-two-numbers.py) - Linked List, Math, Recursion
-- [10. Regular Expression Matching](src/exercises/10.regular-expression-matching.py) - String, Dynamic Programming, Recursion
-- [21. Merge Two Sorted Lists](src/exercises/21.merge-two-sorted-lists.py) - Linked List, Recursion
-- [22. Generate Parentheses](src/exercises/22.generate-parentheses.py) - String, Dynamic Programming, Backtracking
-- [50. Pow(x, n)](src/exercises/50.powx-n.py) - Math, Recursion
-- [206. Reverse Linked List](src/exercises/206.reverse-linked-list.py) - Linked List, Recursion
-- [248. Strobogrammatic Number III](src/exercises/248.strobogrammatic-number-iii.py) - Math, Recursion
-
-### 🎯 Sliding Window
-- [3. Longest Substring Without Repeating Characters](src/exercises/3.longest-substring-without-repeating-characters.py) - Hash Table, String, Sliding Window
-- [219. Contains Duplicate II](src/exercises/219.contains-duplicate-ii.py) - Array, Hash Table, Sliding Window
-
-### 📐 Geometry
-- [149. Max Points on a Line](src/exercises/149.max-points-on-a-line.py) - Array, Hash Table, Math, Geometry
-
-### 🔍 Divide and Conquer
-- [4. Median of Two Sorted Arrays](src/exercises/4.median-of-two-sorted-arrays.py) - Array, Binary Search, Divide and Conquer
-- [169. Majority Element](src/exercises/169.majority-element.py) - Array, Hash Table, Divide and Conquer
-
-### 📝 String Manipulation
-- [3. Longest Substring Without Repeating Characters](src/exercises/3.longest-substring-without-repeating-characters.py) - Hash Table, String, Sliding Window
-- [5. Longest Palindromic Substring](src/exercises/5.longest-palindromic-substring.py) - String, Dynamic Programming
-- [6. Zigzag Conversion](src/exercises/6.zigzag-conversion.py) - String
-- [10. Regular Expression Matching](src/exercises/10.regular-expression-matching.py) - String, Dynamic Programming, Recursion
-- [13. Roman to Integer](src/exercises/13.roman-to-integer.py) - Hash Table, Math, String
-- [14. Longest Common Prefix](src/exercises/14.longest-common-prefix.py) - String, Trie
-- [20. Valid Parentheses](src/exercises/20.valid-parentheses.py) - Stack, String
-- [22. Generate Parentheses](src/exercises/22.generate-parentheses.py) - String, Dynamic Programming, Backtracking
-- [28. Find the Index of the First Occurrence in a String](src/exercises/28.find-the-index-of-the-first-occurrence-in-a-string.py) - String, Two Pointers
-- [125. Valid Palindrome](src/exercises/125.valid-palindrome.py) - String, Two Pointers
-- [205. Isomorphic Strings](src/exercises/205.isomorphic-strings.py) - Hash Table, String
-- [242. Valid Anagram](src/exercises/242.valid-anagram.py) - String, Sorting, Hash Table
-- [246. Strobogrammatic Number](src/exercises/246.strobogrammatic-number.py) - Hash Table, Two Pointers, String
-- [248. Strobogrammatic Number III](src/exercises/248.strobogrammatic-number-iii.py) - Math, Recursion
-- [290. Word Pattern](src/exercises/290.word-pattern.py) - Hash Table, String
-- [383. Ransom Note](src/exercises/383.ransom-note.py) - String, Hash Table, Counting
-- [392. Is Subsequence](src/exercises/392.is-subsequence.py) - String, Two Pointers, Dynamic Programming
-- [91. Decode Ways](src/exercises/91.decode-ways.py) - String, Dynamic Programming
-- [2116. Check if a Parentheses String Can Be Valid](src/exercises/2116.check-if-a-parentheses-string-can-be-valid.py) - String, Stack, Greedy
-
-### 📊 Matrix
-- [36. Valid Sudoku](src/exercises/36.valid-sudoku.py) - Array, Hash Table, Matrix
-- [74. Search a 2D Matrix](src/exercises/74.search-a-2d-matrix.py) - Array, Binary Search, Matrix
-
-### 🔢 Counting
-- [383. Ransom Note](src/exercises/383.ransom-note.py) - String, Hash Table, Counting
-
-### 🌐 Breadth-First Search
-- [1298. Maximum Candies You Can Get from Boxes](src/exercises/1298.maximum-candies-you-can-get-from-boxes.py) - Breadth-First Search, Array
-
-## 📈 Progress Tracking
-
-### Difficulty Distribution
-- **Easy**: ~40 problems
-- **Medium**: ~45 problems  
-- **Hard**: ~5 problems
-
-### Top Problem Types
-1. **Arrays & Strings** - Most common
-2. **Hash Tables** - Frequently used technique
-3. **Two Pointers** - Efficient array manipulation
-4. **Binary Search** - Optimization problems
-5. **Dynamic Programming** - Complex problem solving
-
-## 🛠️ Solution Structure
-
-Each solution follows a consistent structure:
-- Standard library imports
-- Type hints for better code clarity
-- Solution class with required method
-- Clean, readable implementation
-- Proper comments and documentation
-
-## 🎯 Learning Focus Areas
-
-Based on the solutions, key areas of expertise include:
-- **Array manipulation** and **two-pointer techniques**
-- **Hash table** optimization for lookups
-- **Binary search** for efficient searching
-- **Dynamic programming** for complex problems
-- **String manipulation** and **palindrome problems**
-- **Linked list** operations and **cycle detection**
+## 🛠️ Tools & Scripts
+- `create_missing_notes.sh`: Automatically creates missing note files for solved problems
 
 ## 📚 Resources
-
 - [LeetCode Problem Set](https://leetcode.com/problemset/)
-- [LeetCode Profile](https://leetcode.com/u/cargdev/)
+- [My LeetCode Profile](https://leetcode.com/u/cargdev/)
 
 ---
 
-*This index is automatically generated and organized by problem categories and difficulty levels. Each solution includes the relevant tags and techniques used.*
+*This repository is a living document of my algorithmic learning journey. Each note captures my thought process, mistakes, and insights.*
