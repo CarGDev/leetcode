@@ -1,5 +1,123 @@
 # LeetCode Solutions
 
+## 🧠 Why This Repository Exists
+
+I'm practicing to master data structures, algorithms, and problem-solving patterns. This repository serves as my personal learning journey through LeetCode problems, helping me:
+
+- **Build algorithmic thinking** and problem-solving skills
+- **Master fundamental data structures** (arrays, linked lists, trees, graphs, etc.)
+- **Learn advanced algorithms** (dynamic programming, binary search, two pointers, etc.)
+- **Track my progress** and identify areas for improvement
+- **Create a reference library** of solutions for future review
+
+## ✅ Progress Overview
+
+### Current Status
+- **Problems Solved**: 90+ / 2000+ (LeetCode total)
+- **Success Rate**: ~95%
+- **Streak**: Active daily practice
+- **Languages**: Python (primary), TypeScript (secondary)
+
+### Difficulty Breakdown
+| Difficulty | Count | Percentage |
+|------------|-------|------------|
+| 🟢 Easy    | ~40   | 44%        |
+| 🟡 Medium  | ~45   | 50%        |
+| 🔴 Hard    | ~5    | 6%         |
+
+### Recent Activity
+- **Last Solved**: Multiple problems this week
+- **Focus Areas**: Dynamic Programming, Graph Algorithms
+- **Next Goals**: Advanced tree problems, system design concepts
+
+## 🧩 Topics Covered
+
+### ✅ Mastered
+- **Arrays & Strings** - Two pointers, sliding window, prefix sums
+- **Hash Tables** - Lookup optimization, frequency counting
+- **Binary Search** - Standard and rotated array variations
+- **Two Pointers** - Array manipulation, linked list operations
+- **Basic Dynamic Programming** - Memoization, tabulation
+
+### 🔄 In Progress
+- **Advanced DP** - State compression, optimization techniques
+- **Graph Algorithms** - BFS, DFS, topological sorting
+- **Tree Structures** - Binary trees, BST operations
+- **Advanced Data Structures** - Heaps, Tries, Union-Find
+
+### 📚 Planned
+- **System Design** - Scalability, distributed systems
+- **Advanced Algorithms** - Segment trees, advanced graph algorithms
+- **Competitive Programming** - Advanced optimization techniques
+
+## 📋 Problem Checklist
+
+### Core Data Structures
+| Topic | Easy | Medium | Hard | Total |
+|-------|------|--------|------|-------|
+| **Arrays** | 15 | 20 | 2 | 37 |
+| **Strings** | 8 | 12 | 1 | 21 |
+| **Linked Lists** | 1 | 4 | 0 | 5 |
+| **Trees** | 0 | 0 | 0 | 0 |
+| **Graphs** | 0 | 2 | 0 | 2 |
+| **Stacks/Queues** | 2 | 3 | 0 | 5 |
+
+### Algorithmic Techniques
+| Technique | Easy | Medium | Hard | Total |
+|-----------|------|--------|------|-------|
+| **Hash Tables** | 8 | 12 | 0 | 20 |
+| **Two Pointers** | 6 | 15 | 0 | 21 |
+| **Binary Search** | 2 | 8 | 0 | 10 |
+| **Dynamic Programming** | 0 | 8 | 0 | 8 |
+| **Greedy** | 0 | 6 | 0 | 6 |
+| **Backtracking** | 0 | 3 | 0 | 3 |
+| **Sliding Window** | 1 | 1 | 0 | 2 |
+
+### Problem Categories
+| Category | Count | Mastery Level |
+|----------|-------|---------------|
+| **Array Manipulation** | 25 | ⭐⭐⭐⭐⭐ |
+| **String Processing** | 18 | ⭐⭐⭐⭐ |
+| **Hash Table Usage** | 20 | ⭐⭐⭐⭐⭐ |
+| **Binary Search** | 10 | ⭐⭐⭐⭐ |
+| **Dynamic Programming** | 8 | ⭐⭐⭐ |
+| **Two Pointers** | 21 | ⭐⭐⭐⭐⭐ |
+| **Linked Lists** | 5 | ⭐⭐⭐ |
+| **Graphs** | 2 | ⭐⭐ |
+| **Stacks/Queues** | 5 | ⭐⭐⭐ |
+
+## 🎯 Learning Roadmap
+
+### Phase 1: Fundamentals ✅
+- [x] Basic array operations
+- [x] String manipulation
+- [x] Hash table implementations
+- [x] Two pointer techniques
+- [x] Basic binary search
+
+### Phase 2: Intermediate 🔄
+- [x] Dynamic programming basics
+- [x] Linked list operations
+- [x] Stack and queue problems
+- [x] Greedy algorithms
+- [ ] Tree traversal algorithms
+- [ ] Graph basics (BFS/DFS)
+
+### Phase 3: Advanced 📚
+- [ ] Advanced DP techniques
+- [ ] Advanced tree structures
+- [ ] Graph algorithms
+- [ ] System design concepts
+- [ ] Competitive programming
+
+### Phase 4: Mastery 🏆
+- [ ] Advanced optimization
+- [ ] Algorithm design
+- [ ] Interview preparation
+- [ ] Teaching others
+
+---
+
 This repository contains my solutions to various LeetCode problems. Each solution is implemented in Python and follows a consistent structure.
 
 ## 📊 Statistics
