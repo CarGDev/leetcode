@@ -109,6 +109,26 @@ This repo tracks my journey solving LeetCode problems — not just code, but my 
 
 ## 🛠️ Tools & Scripts
 - `create_missing_notes.sh`: Automatically creates missing note files for solved problems
+- `update_difficulties.sh`: Manage problem difficulties dynamically without hardcoding
+
+### Script Usage Examples:
+```bash
+# Create missing notes for new problems
+./create_missing_notes.sh
+
+# Add difficulty mapping for a problem
+./update_difficulties.sh -a 1 Easy
+./update_difficulties.sh -a 4 Hard
+
+# List all difficulty mappings
+./update_difficulties.sh -l
+
+# Update all note files with correct difficulties
+./update_difficulties.sh -u
+
+# Remove difficulty mapping
+./update_difficulties.sh -r 1
+```
 
 ## 📚 Resources
 - [LeetCode Problem Set](https://leetcode.com/problemset/)

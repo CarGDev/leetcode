@@ -37,26 +37,6 @@ filename_to_title() {
     echo "$title" | sed 's/-/ /g' | sed 's/\b\w/\U&/g' | sed 's/\bii\b/II/g' | sed 's/\biii\b/III/g'
 }
 
-# Function to determine difficulty based on problem number ranges
-get_difficulty() {
-    local problem_num=$1
-    
-    # Hard problems (known)
-    case $problem_num in
-        4|10|42|135|149|248)
-            echo "Hard"
-            ;;
-        # Easy problems (known)
-        1|9|13|14|20|21|28|35|66|69|88|121|125|141|169|202|205|206|217|219|228|242|243|246|290|383|392|704|1200|2053|2441|3442|3445)
-            echo "Easy"
-            ;;
-        # Everything else is Medium
-        *)
-            echo "Medium"
-            ;;
-    esac
-}
-
 # Function to get difficulty color for shields
 get_difficulty_color() {
     local difficulty=$1
@@ -74,6 +54,15 @@ get_difficulty_color() {
             echo "blue"
             ;;
     esac
+}
+
+# Function to determine difficulty dynamically (default to Medium for unknown problems)
+get_difficulty() {
+    local problem_num=$1
+    
+    # For now, default to Medium for all problems
+    # This can be enhanced later with API calls or a separate difficulty mapping file
+    echo "Medium"
 }
 
 # Function to create note file
@@ -157,7 +146,7 @@ if [ -d "$EXERCISES_DIR" ]; then
             # Convert filename to title
             title=$(filename_to_title "$filename")
             
-            # Get difficulty
+            # Get difficulty (default to Medium for now)
             difficulty=$(get_difficulty "$problem_num")
             
             # Create note file
@@ -180,4 +169,5 @@ echo "✅ New notes created: $created_count"
 echo "⏭️  Notes skipped (already exist): $skipped_count"
 echo "📁 Notes directory: $NOTES_DIR"
 echo ""
-echo "💡 Tip: Run this script whenever you solve new problems to automatically create note templates." 
+echo "💡 Tip: Run this script whenever you solve new problems to automatically create note templates."
+echo "🔧 Note: All problems default to 'Medium' difficulty. You can manually update difficulties in the notes." 
