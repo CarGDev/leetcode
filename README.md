@@ -2,7 +2,21 @@
 
 This repo tracks my journey solving LeetCode problems — not just code, but my thought process, reflections, and patterns I'm mastering.
 
+[![LeetCode Problems](https://img.shields.io/badge/LeetCode-75%2B%20Solved-brightgreen?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/cargdev/)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)](https://www.python.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0%2B-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/CarGDev/leetcode?style=for-the-badge&color=orange)](https://github.com/CarGDev/leetcode/commits/master)
+[![Repository Size](https://img.shields.io/github/repo-size/CarGDev/leetcode?style=for-the-badge&color=blueviolet)](https://github.com/CarGDev/leetcode)
+
 ## ✅ Progress
+
+[![Easy Problems](https://img.shields.io/badge/Easy-40%2B-brightgreen?style=flat-square)](https://leetcode.com/problemset/?difficulty=EASY)
+[![Medium Problems](https://img.shields.io/badge/Medium-30%2B-orange?style=flat-square)](https://leetcode.com/problemset/?difficulty=MEDIUM)
+[![Hard Problems](https://img.shields.io/badge/Hard-5%2B-red?style=flat-square)](https://leetcode.com/problemset/?difficulty=HARD)
+[![Success Rate](https://img.shields.io/badge/Success%20Rate-95%25-brightgreen?style=flat-square)](https://leetcode.com/u/cargdev/)
+[![Streak](https://img.shields.io/badge/Current%20Streak-Active-blue?style=flat-square)](https://leetcode.com/u/cargdev/)
+
 - **Total Problems Solved**: 75+
 - **Notes Written**: 1+ (expanding soon)
 - **Categories Covered**: Arrays, Hash Maps, Dynamic Programming, Two Pointers, Binary Search, etc.

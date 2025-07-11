@@ -57,6 +57,25 @@ get_difficulty() {
     esac
 }
 
+# Function to get difficulty color for shields
+get_difficulty_color() {
+    local difficulty=$1
+    case $difficulty in
+        "Easy")
+            echo "brightgreen"
+            ;;
+        "Medium")
+            echo "orange"
+            ;;
+        "Hard")
+            echo "red"
+            ;;
+        *)
+            echo "blue"
+            ;;
+    esac
+}
+
 # Function to create note file
 create_note_file() {
     local problem_num=$1
@@ -65,13 +84,23 @@ create_note_file() {
     local filename="$NOTES_DIR/$(format_problem_number $problem_num)_$(title_to_filename "$title").md"
     
     if [ ! -f "$filename" ]; then
+        local difficulty_color=$(get_difficulty_color "$difficulty")
+        local leetcode_url="https://leetcode.com/problems/$(echo "$title" | tr ' ' '-')/"
+        
         echo "# $title" > "$filename"
         echo "" >> "$filename"
-        echo "**Problem Number:** $problem_num" >> "$filename"
-        echo "**Difficulty:** $difficulty" >> "$filename"
+        echo "[![Problem $problem_num](https://img.shields.io/badge/Problem-$problem_num-blue?style=for-the-badge&logo=leetcode)](https://leetcode.com/problems/$(echo "$title" | tr ' ' '-')/)" >> "$filename"
+        echo "[![Difficulty](https://img.shields.io/badge/Difficulty-$difficulty-$difficulty_color?style=for-the-badge)](https://leetcode.com/problemset/?difficulty=$(echo "$difficulty" | tr '[:lower:]' '[:upper:]'))" >> "$filename"
+        echo "[![LeetCode](https://img.shields.io/badge/LeetCode-View%20Problem-orange?style=for-the-badge&logo=leetcode)]($leetcode_url)" >> "$filename"
+        echo "" >> "$filename"
+        echo "**Problem Number:** [$problem_num]($leetcode_url)" >> "$filename"
+        echo "**Difficulty:** [$difficulty](https://leetcode.com/problemset/?difficulty=$(echo "$difficulty" | tr '[:lower:]' '[:upper:]'))" >> "$filename"
         echo "**Category:** " >> "$filename"
+        echo "**LeetCode Link:** [$leetcode_url]($leetcode_url)" >> "$filename"
         echo "" >> "$filename"
         echo "## Problem Description" >> "$filename"
+        echo "" >> "$filename"
+        echo "> **View the full problem description on LeetCode:** [$title]($leetcode_url)" >> "$filename"
         echo "" >> "$filename"
         echo "## My Approach" >> "$filename"
         echo "" >> "$filename"
@@ -86,6 +115,9 @@ create_note_file() {
         echo "## Related Problems" >> "$filename"
         echo "" >> "$filename"
         echo "---" >> "$filename"
+        echo "" >> "$filename"
+        echo "[![Back to Index](../../README.md#-problem-index)](../../README.md#-problem-index) | [![View Solution](../exercises/$problem_num.$(echo "$title" | tr ' ' '-').py)](../exercises/$problem_num.$(echo "$title" | tr ' ' '-').py)" >> "$filename"
+        echo "" >> "$filename"
         echo "*Note: This is a work in progress. I'll add more details as I reflect on this problem.*" >> "$filename"
         
         echo "✅ Created: $filename"
