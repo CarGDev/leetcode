@@ -1,6 +1,7 @@
 # Created by https://www.toptal.com/developers/gitignore/api/node,java,python,c++
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,java,python,c++
 .cursor*
+*sync_leetcode.sh
 ### C++ ###
 # Prerequisites
 *.d

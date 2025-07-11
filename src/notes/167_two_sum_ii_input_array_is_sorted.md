@@ -5,7 +5,7 @@
 [![LeetCode](https://img.shields.io/badge/LeetCode-View%20Problem-orange?style=for-the-badge&logo=leetcode)](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 
 **Problem Number:** [167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
-**Difficulty:** [Medium](https://leetcode.com/problemset/?difficulty=MEDIUM)
+**Difficulty:** [Medium](https://leetcode.com/problemset/?difficulty=MEDIUM)(https://leetcode.com/problemset/?difficulty=MEDIUM)
 **Category:** 
 **LeetCode Link:** [https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 
