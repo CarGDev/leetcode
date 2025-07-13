@@ -44,5 +44,14 @@ from typing import *
 
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
+        m, n = head, head
+        while n and n.next:
+            m = m.next
+            n = n.next.next
+            if m == n:
+                return True
+        return False
+
+
         
 # @leet end

@@ -43,16 +43,12 @@ class Solution:
         while j < len(s):
             if s[j] not in window:
                 window[s[j]] = 1
-                max_char = (
-                    len(window.keys()) if max_char < len(window.keys()) else max_char
-                )
+                max_char = len(window.keys()) if max_char < len(window.keys()) else max_char
                 j += 1
             elif s[j] in window:
                 del window[s[i]]
                 i += 1
-
+                        
         return max_char
-
-
 # @leet end
 

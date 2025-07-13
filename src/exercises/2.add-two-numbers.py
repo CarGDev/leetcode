@@ -41,18 +41,16 @@ from typing import *
 #         self.val = val
 #         self.next = next
 class Solution:
-    def node(self, val, next=None):
+    def node(self, val, next = None):
         self.val = val
         self.next = next
 
-    def addTwoNumbers(
-        self, l1: Optional[ListNode], l2: Optional[ListNode]
-    ) -> Optional[ListNode]:
+    def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
         carry = 0
         value_l1 = l1
         value_l2 = l2
         head = None
-        tail = None
+        tail = None 
         while value_l1 or value_l2:
             l2_val = l2.val if l2 else 0
             l1_val = l1.val if l1 else 0
@@ -80,6 +78,4 @@ class Solution:
             tail = new_node
 
         return head
-
-
 # @leet end
