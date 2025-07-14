@@ -23,7 +23,7 @@ This repo tracks my journey solving LeetCode problems — not just code, but my 
 - **Categories Covered**: Arrays, Hash Maps, Dynamic Programming, Two Pointers, Binary Search, etc.
 
 ## 🗂 Directory Structure
-- `src/exercises/`: Auto-downloaded solutions via Cursor
+- `src/exercises/`: Auto-downloaded solutions via [leetcode.nvim](https://github.com/kawre/leetcode.nvim) caching
 
 ## 🧩 Problem Index
 
