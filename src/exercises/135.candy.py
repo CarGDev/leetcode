@@ -44,10 +44,9 @@ class Solution:
 
         for i in range(len(ratings) - 2, -1, -1):
             if ratings[i] > ratings[i + 1]:
-                arr[i] = max(arr[i], arr[i + 1] + 1)
+                arr[i] = max(arr[i + 1] + 1, arr[i])
 
         return sum(arr)
 
 
 # @leet end
-

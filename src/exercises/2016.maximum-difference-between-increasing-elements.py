@@ -1,3 +1,4 @@
+# @leet imports start
 from string import *
 from re import *
 from datetime import *
@@ -33,20 +34,23 @@ import sys
 import json
 from typing import *
 
+# @leet imports end
+
 
 # @leet start
 class Solution:
-    def maxArea(self, height: List[int]) -> int:
-        i, j, max_vol = 0, len(height) - 1, 0
-        while i < j:
-            if height[i] > height[j]:
-                max_vol = max(max_vol, min(height[i], height[j]) * (j - i))
+    def maximumDifference(self, nums: List[int]) -> int:
+        max_val = -1
+        for i in range(len(nums)):
+            j = len(nums) - 1
+            while j > i:
+                if nums[i] < nums[j]:
+                    diff = nums[j] - nums[i]
+                    max_val = max(diff, max_val)
                 j -= 1
-            elif height[j] >= height[i]:
-                max_vol = max(max_vol, min(height[i], height[j]) * (j - i))
-                i += 1
 
-        return max_vol
+        return max_val
 
 
 # @leet end
+

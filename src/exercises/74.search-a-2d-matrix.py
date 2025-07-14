@@ -73,7 +73,5 @@ class Solution:
 
         isValid = bin_search(0, len(nums) - 1)
         return isValid != -1
-
-
 # @leet end
 

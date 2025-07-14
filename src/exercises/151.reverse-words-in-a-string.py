@@ -1,3 +1,4 @@
+# @leet imports start
 from string import *
 from re import *
 from datetime import *
@@ -32,21 +33,17 @@ import io
 import sys
 import json
 from typing import *
-
+# @leet imports end
 
 # @leet start
 class Solution:
-    def maxArea(self, height: List[int]) -> int:
-        i, j, max_vol = 0, len(height) - 1, 0
-        while i < j:
-            if height[i] > height[j]:
-                max_vol = max(max_vol, min(height[i], height[j]) * (j - i))
+    def reverseWords(self, s: str) -> str:
+        s = s.split(" ")
+        a = [""] * len(s)
+        j = len(a) - 1
+        for i in range(len(s)):
+            if s[i] != "":
+                a[j] = s[i]
                 j -= 1
-            elif height[j] >= height[i]:
-                max_vol = max(max_vol, min(height[i], height[j]) * (j - i))
-                i += 1
-
-        return max_vol
-
-
+        return " ".join(a).strip()
 # @leet end

@@ -2,6 +2,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,java,python,c++
 .cursor*
 *src/notes*
+*backup/
 ./src/notes/
 *sync_leetcode.sh
 ### C++ ###

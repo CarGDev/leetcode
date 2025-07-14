@@ -44,6 +44,7 @@ class Solution:
         pos1 = word_indices[word1]
         pos2 = word_indices[word2]
 
+        # Two-pointer traversal
         i, j = 0, 0
         min_distance = float("inf")
 
@@ -52,13 +53,13 @@ class Solution:
             index2 = pos2[j]
             min_distance = min(min_distance, abs(index1 - index2))
 
+            # Move the pointer pointing to the smaller index
             if index1 < index2:
                 i += 1
             else:
                 j += 1
 
         return min_distance
-
 
 # @leet end
 

@@ -1,3 +1,4 @@
+# @leet imports start
 from string import *
 from re import *
 from datetime import *
@@ -33,20 +34,24 @@ import sys
 import json
 from typing import *
 
+# @leet imports end
+
 
 # @leet start
 class Solution:
-    def maxArea(self, height: List[int]) -> int:
-        i, j, max_vol = 0, len(height) - 1, 0
-        while i < j:
-            if height[i] > height[j]:
-                max_vol = max(max_vol, min(height[i], height[j]) * (j - i))
-                j -= 1
-            elif height[j] >= height[i]:
-                max_vol = max(max_vol, min(height[i], height[j]) * (j - i))
-                i += 1
+    def anagramMappings(self, nums1: List[int], nums2: List[int]) -> List[int]:
+        numsList = {}
+        j = 0
+        for i in nums2:
+            if i not in numsList:
+                numsList[i] = j
+            j += 1
 
-        return max_vol
+        arr = []
+        for i in nums1:
+            arr.append(numsList[i])
+        return arr
 
 
 # @leet end
+

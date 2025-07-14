@@ -67,7 +67,5 @@ class Solution:
                 j += 1
 
         return min_distance
-
-
 # @leet end
 

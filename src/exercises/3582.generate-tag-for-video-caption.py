@@ -1,3 +1,4 @@
+# @leet imports start
 from string import *
 from re import *
 from datetime import *
@@ -33,20 +34,26 @@ import sys
 import json
 from typing import *
 
+# @leet imports end
+
 
 # @leet start
 class Solution:
-    def maxArea(self, height: List[int]) -> int:
-        i, j, max_vol = 0, len(height) - 1, 0
-        while i < j:
-            if height[i] > height[j]:
-                max_vol = max(max_vol, min(height[i], height[j]) * (j - i))
-                j -= 1
-            elif height[j] >= height[i]:
-                max_vol = max(max_vol, min(height[i], height[j]) * (j - i))
-                i += 1
+    def generateTag(self, caption: str) -> str:
+        words = caption.strip().split(" ")
+        result = []
 
-        return max_vol
+        for i in range(len(words)):
+            clean = re.sub(r"[^a-zA-Z]", "", words[i])
+            if not clean:
+                continue
+            if i == 0:
+                result.append(clean.lower())
+            else:
+                result.append(clean[0].upper() + clean[1:].lower())
+
+        return ("#" + "".join(result))[:100]
 
 
 # @leet end
+

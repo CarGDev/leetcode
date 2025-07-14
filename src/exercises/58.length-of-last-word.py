@@ -1,3 +1,4 @@
+# @leet imports start
 from string import *
 from re import *
 from datetime import *
@@ -32,21 +33,12 @@ import io
 import sys
 import json
 from typing import *
-
+# @leet imports end
 
 # @leet start
 class Solution:
-    def maxArea(self, height: List[int]) -> int:
-        i, j, max_vol = 0, len(height) - 1, 0
-        while i < j:
-            if height[i] > height[j]:
-                max_vol = max(max_vol, min(height[i], height[j]) * (j - i))
-                j -= 1
-            elif height[j] >= height[i]:
-                max_vol = max(max_vol, min(height[i], height[j]) * (j - i))
-                i += 1
-
-        return max_vol
-
-
+    def lengthOfLastWord(self, s: str) -> int:
+        s = s.strip()
+        s = s.split(" ")
+        return len(s[-1])
 # @leet end

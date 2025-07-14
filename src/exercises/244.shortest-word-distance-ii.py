@@ -54,6 +54,7 @@ class WordDistance:
             index2 = pos2[j]
             min_distance = min(min_distance, abs(index1 - index2))
 
+            # Move the pointer pointing to the smaller index
             if index1 < index2:
                 i += 1
             else:
