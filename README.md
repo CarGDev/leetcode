@@ -4,6 +4,8 @@ This repo tracks my journey solving LeetCode problems — not just code, but my 
 
 [![LeetCode Problems](https://img.shields.io/badge/LeetCode-75%2B%20Solved-brightgreen?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/cargdev/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)](https://www.python.org/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-yellow?style=for-the-badge&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![SQL](https://img.shields.io/badge/SQL-MySQL%2B-orange?style=for-the-badge&logo=mysql)](https://www.mysql.com/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![Last Commit](https://img.shields.io/github/last-commit/CarGDev/leetcode?style=for-the-badge&color=orange)](https://github.com/CarGDev/leetcode/commits/master)
 [![Repository Size](https://img.shields.io/github/repo-size/CarGDev/leetcode?style=for-the-badge&color=blueviolet)](https://github.com/CarGDev/leetcode)
