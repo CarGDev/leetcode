@@ -2,7 +2,7 @@
 
 This repo tracks my journey solving LeetCode problems — not just code, but my thought process, reflections, and patterns I'm mastering.
 
-[![LeetCode Problems](https://img.shields.io/badge/LeetCode-75%2B%20Solved-brightgreen?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/cargdev/)
+[![LeetCode Problems](https://img.shields.io/badge/LeetCode-79%2B%20Solved-brightgreen?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/cargdev/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)](https://www.python.org/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-yellow?style=for-the-badge&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![SQL](https://img.shields.io/badge/SQL-MySQL%2B-orange?style=for-the-badge&logo=mysql)](https://www.mysql.com/)
@@ -18,9 +18,9 @@ This repo tracks my journey solving LeetCode problems — not just code, but my 
 [![Success Rate](https://img.shields.io/badge/Success%20Rate-95%25-brightgreen?style=flat-square)](https://leetcode.com/u/cargdev/)
 [![Streak](https://img.shields.io/badge/Current%20Streak-Active-blue?style=flat-square)](https://leetcode.com/u/cargdev/)
 
-- **Total Problems Solved**: 75+
+- **Total Problems Solved**: 79+
 - **Notes Written**: 1+ (expanding soon)
-- **Categories Covered**: Arrays, Hash Maps, Dynamic Programming, Two Pointers, Binary Search, etc.
+- **Categories Covered**: Arrays, Hash Maps, Dynamic Programming, Two Pointers, Binary Search, Trees, etc.
 
 ## 🗂 Directory Structure
 - `src/exercises/`: Auto-downloaded solutions via [leetcode.nvim](https://github.com/kawre/leetcode.nvim) caching
@@ -60,51 +60,53 @@ This repo tracks my journey solving LeetCode problems — not just code, but my 
 | 29 | 089 | [Gray Code](src/exercises/89.gray-code.py) | Medium | Python |
 | 30 | 090 | [Subsets II](src/exercises/90.subsets-ii.py) | Medium | Python |
 | 31 | 091 | [Decode Ways](src/exercises/91.decode-ways.py) | Medium | Python |
-| 32 | 121 | [Best Time to Buy and Sell Stock](src/exercises/121.best-time-to-buy-and-sell-stock.py) | Easy | Python |
-| 33 | 122 | [Best Time to Buy and Sell Stock II](src/exercises/122.best-time-to-buy-and-sell-stock-ii.py) | Medium | Python |
-| 34 | 125 | [Valid Palindrome](src/exercises/125.valid-palindrome.py) | Easy | Python |
-| 35 | 128 | [Longest Consecutive Sequence](src/exercises/128.longest-consecutive-sequence.py) | Medium | Python |
-| 36 | 135 | [Candy](src/exercises/135.candy.py) | Hard | Python |
-| 37 | 141 | [Linked List Cycle](src/exercises/141.linked-list-cycle.py) | Easy | Python |
-| 38 | 149 | [Max Points on a Line](src/exercises/149.max-points-on-a-line.py) | Hard | Python |
-| 39 | 151 | [Reverse Words in a String](src/exercises/151.reverse-words-in-a-string.py) | Medium | Python |
-| 40 | 153 | [Find Minimum in Rotated Sorted Array](src/exercises/153.find-minimum-in-rotated-sorted-array.py) | Medium | Python |
-| 41 | 155 | [Min Stack](src/exercises/155.min-stack.py) | Medium | Python |
-| 42 | 167 | [Two Sum II - Input Array Is Sorted](src/exercises/167.two-sum-ii-input-array-is-sorted.py) | Medium | Python |
-| 43 | 169 | [Majority Element](src/exercises/169.majority-element.py) | Easy | Python |
-| 44 | 172 | [Factorial Trailing Zeroes](src/exercises/172.factorial-trailing-zeroes.py) | Medium | Python |
-| 45 | 189 | [Rotate Array](src/exercises/189.rotate-array.py) | Medium | Python |
-| 46 | 202 | [Happy Number](src/exercises/202.happy-number.py) | Easy | Python |
-| 47 | 205 | [Isomorphic Strings](src/exercises/205.isomorphic-strings.py) | Easy | Python |
-| 48 | 206 | [Reverse Linked List](src/exercises/206.reverse-linked-list.py) | Easy | Python |
-| 49 | 217 | [Contains Duplicate](src/exercises/217.contains-duplicate.py) | Easy | Python |
-| 50 | 219 | [Contains Duplicate II](src/exercises/219.contains-duplicate-ii.py) | Easy | Python |
-| 51 | 228 | [Summary Ranges](src/exercises/228.summary-ranges.py) | Easy | Python |
-| 52 | 238 | [Product of Array Except Self](src/exercises/238.product-of-array-except-self.py) | Medium | Python |
-| 53 | 242 | [Valid Anagram](src/exercises/242.valid-anagram.py) | Easy | Python |
-| 54 | 243 | [Shortest Word Distance](src/exercises/243.shortest-word-distance.py) | Easy | Python |
-| 55 | 244 | [Shortest Word Distance II](src/exercises/244.shortest-word-distance-ii.py) | Medium | Python |
-| 56 | 245 | [Shortest Word Distance III](src/exercises/245.shortest-word-distance-iii.py) | Medium | Python |
-| 57 | 246 | [Strobogrammatic Number](src/exercises/246.strobogrammatic-number.py) | Easy | Python |
-| 58 | 248 | [Strobogrammatic Number III](src/exercises/248.strobogrammatic-number-iii.py) | Hard | Python |
-| 59 | 271 | [Encode and Decode Strings](src/exercises/271.encode-and-decode-strings.js) | Medium | JavaScript |
-| 60 | 290 | [Word Pattern](src/exercises/290.word-pattern.py) | Easy | Python |
-| 61 | 347 | [Top K Frequent Elements](src/exercises/347.top-k-frequent-elements.js) | Medium | JavaScript |
-| 62 | 383 | [Ransom Note](src/exercises/383.ransom-note.py) | Easy | Python |
-| 63 | 392 | [Is Subsequence](src/exercises/392.is-subsequence.py) | Easy | Python |
-| 64 | 595 | [Big Countries](src/exercises/595.big-countries.sql) | Easy | SQL |
-| 65 | 704 | [Binary Search](src/exercises/704.binary-search.py) | Easy | Python |
-| 66 | 760 | [Find Anagram Mappings](src/exercises/760.find-anagram-mappings.py) | Easy | Python |
-| 67 | 875 | [Koko Eating Bananas](src/exercises/875.koko-eating-bananas.py) | Medium | Python |
-| 68 | 1048 | [Longest String Chain](src/exercises/1048.longest-string-chain.js) | Medium | JavaScript |
-| 69 | 1200 | [Minimum Absolute Difference](src/exercises/1200.minimum-absolute-difference.py) | Easy | Python |
-| 70 | 1302 | [Deepest Leaves Sum](src/exercises/1302.deepest-leaves-sum.py) | Medium | Python |
-| 71 | 2016 | [Maximum Difference Between Increasing Elements](src/exercises/2016.maximum-difference-between-increasing-elements.py) | Easy | Python |
-| 72 | 2053 | [Kth Distinct String in an Array](src/exercises/2053.kth-distinct-string-in-an-array.py) | Easy | Python |
-| 73 | 2294 | [Partition Array Such That Maximum Difference Is K](src/exercises/2294.partition-array-such-that-maximum-difference-is-k.py) | Medium | Python |
-| 74 | 3442 | [Maximum Difference Between Even and Odd Frequency I](src/exercises/3442.maximum-difference-between-even-and-odd-frequency-i.py) | Easy | Python |
-| 75 | 3582 | [Generate Tag for Video Caption](src/exercises/3582.generate-tag-for-video-caption.py) | Easy | Python |
-| 76 | 3583 | [Count Special Triplets](src/exercises/3583.count-special-triplets.py) | Easy | Python |
+| 32 | 104 | [Maximum Depth of Binary Tree](src/exercises/104.maximum-depth-of-binary-tree.py) | Easy | Python |
+| 33 | 121 | [Best Time to Buy and Sell Stock](src/exercises/121.best-time-to-buy-and-sell-stock.py) | Easy | Python |
+| 34 | 122 | [Best Time to Buy and Sell Stock II](src/exercises/122.best-time-to-buy-and-sell-stock-ii.py) | Medium | Python |
+| 35 | 125 | [Valid Palindrome](src/exercises/125.valid-palindrome.py) | Easy | Python |
+| 36 | 128 | [Longest Consecutive Sequence](src/exercises/128.longest-consecutive-sequence.py) | Medium | Python |
+| 37 | 135 | [Candy](src/exercises/135.candy.py) | Hard | Python |
+| 38 | 141 | [Linked List Cycle](src/exercises/141.linked-list-cycle.py) | Easy | Python |
+| 39 | 149 | [Max Points on a Line](src/exercises/149.max-points-on-a-line.py) | Hard | Python |
+| 40 | 151 | [Reverse Words in a String](src/exercises/151.reverse-words-in-a-string.py) | Medium | Python |
+| 41 | 153 | [Find Minimum in Rotated Sorted Array](src/exercises/153.find-minimum-in-rotated-sorted-array.py) | Medium | Python |
+| 42 | 155 | [Min Stack](src/exercises/155.min-stack.py) | Medium | Python |
+| 43 | 167 | [Two Sum II - Input Array Is Sorted](src/exercises/167.two-sum-ii-input-array-is-sorted.py) | Medium | Python |
+| 44 | 169 | [Majority Element](src/exercises/169.majority-element.py) | Easy | Python |
+| 45 | 172 | [Factorial Trailing Zeroes](src/exercises/172.factorial-trailing-zeroes.py) | Medium | Python |
+| 46 | 189 | [Rotate Array](src/exercises/189.rotate-array.py) | Medium | Python |
+| 47 | 202 | [Happy Number](src/exercises/202.happy-number.py) | Easy | Python |
+| 48 | 205 | [Isomorphic Strings](src/exercises/205.isomorphic-strings.py) | Easy | Python |
+| 49 | 206 | [Reverse Linked List](src/exercises/206.reverse-linked-list.py) | Easy | Python |
+| 50 | 217 | [Contains Duplicate](src/exercises/217.contains-duplicate.py) | Easy | Python |
+| 51 | 219 | [Contains Duplicate II](src/exercises/219.contains-duplicate-ii.py) | Easy | Python |
+| 52 | 228 | [Summary Ranges](src/exercises/228.summary-ranges.py) | Easy | Python |
+| 53 | 238 | [Product of Array Except Self](src/exercises/238.product-of-array-except-self.py) | Medium | Python |
+| 54 | 242 | [Valid Anagram](src/exercises/242.valid-anagram.py) | Easy | Python |
+| 55 | 243 | [Shortest Word Distance](src/exercises/243.shortest-word-distance.py) | Easy | Python |
+| 56 | 244 | [Shortest Word Distance II](src/exercises/244.shortest-word-distance-ii.py) | Medium | Python |
+| 57 | 245 | [Shortest Word Distance III](src/exercises/245.shortest-word-distance-iii.py) | Medium | Python |
+| 58 | 246 | [Strobogrammatic Number](src/exercises/246.strobogrammatic-number.py) | Easy | Python |
+| 59 | 248 | [Strobogrammatic Number III](src/exercises/248.strobogrammatic-number-iii.py) | Hard | Python |
+| 60 | 271 | [Encode and Decode Strings](src/exercises/271.encode-and-decode-strings.js) | Medium | JavaScript |
+| 61 | 274 | [H-Index](src/exercises/274.h-index.py) | Medium | Python |
+| 62 | 290 | [Word Pattern](src/exercises/290.word-pattern.py) | Easy | Python |
+| 63 | 347 | [Top K Frequent Elements](src/exercises/347.top-k-frequent-elements.js) | Medium | JavaScript |
+| 64 | 383 | [Ransom Note](src/exercises/383.ransom-note.py) | Easy | Python |
+| 65 | 392 | [Is Subsequence](src/exercises/392.is-subsequence.py) | Easy | Python |
+| 66 | 595 | [Big Countries](src/exercises/595.big-countries.sql) | Easy | SQL |
+| 67 | 704 | [Binary Search](src/exercises/704.binary-search.py) | Easy | Python |
+| 68 | 760 | [Find Anagram Mappings](src/exercises/760.find-anagram-mappings.py) | Easy | Python |
+| 69 | 875 | [Koko Eating Bananas](src/exercises/875.koko-eating-bananas.py) | Medium | Python |
+| 70 | 1048 | [Longest String Chain](src/exercises/1048.longest-string-chain.js) | Medium | JavaScript |
+| 71 | 1200 | [Minimum Absolute Difference](src/exercises/1200.minimum-absolute-difference.py) | Easy | Python |
+| 72 | 1302 | [Deepest Leaves Sum](src/exercises/1302.deepest-leaves-sum.py) | Medium | Python |
+| 73 | 2016 | [Maximum Difference Between Increasing Elements](src/exercises/2016.maximum-difference-between-increasing-elements.py) | Easy | Python |
+| 74 | 2053 | [Kth Distinct String in an Array](src/exercises/2053.kth-distinct-string-in-an-array.py) | Easy | Python |
+| 75 | 2294 | [Partition Array Such That Maximum Difference Is K](src/exercises/2294.partition-array-such-that-maximum-difference-is-k.py) | Medium | Python |
+| 76 | 3442 | [Maximum Difference Between Even and Odd Frequency I](src/exercises/3442.maximum-difference-between-even-and-odd-frequency-i.py) | Easy | Python |
+| 77 | 3582 | [Generate Tag for Video Caption](src/exercises/3582.generate-tag-for-video-caption.py) | Easy | Python |
+| 78 | 3583 | [Count Special Triplets](src/exercises/3583.count-special-triplets.py) | Easy | Python |
 
 ## 🛠️ Tools & Scripts
 - `create_missing_notes.sh`: Automatically creates missing note files for solved problems
