@@ -103,10 +103,11 @@ This repo tracks my journey solving LeetCode problems — not just code, but my 
 | 72 | 1302 | [Deepest Leaves Sum](src/exercises/1302.deepest-leaves-sum.py) | Medium | Python |
 | 73 | 2016 | [Maximum Difference Between Increasing Elements](src/exercises/2016.maximum-difference-between-increasing-elements.py) | Easy | Python |
 | 74 | 2053 | [Kth Distinct String in an Array](src/exercises/2053.kth-distinct-string-in-an-array.py) | Easy | Python |
-| 75 | 2294 | [Partition Array Such That Maximum Difference Is K](src/exercises/2294.partition-array-such-that-maximum-difference-is-k.py) | Medium | Python |
-| 76 | 3442 | [Maximum Difference Between Even and Odd Frequency I](src/exercises/3442.maximum-difference-between-even-and-odd-frequency-i.py) | Easy | Python |
-| 77 | 3582 | [Generate Tag for Video Caption](src/exercises/3582.generate-tag-for-video-caption.py) | Easy | Python |
-| 78 | 3583 | [Count Special Triplets](src/exercises/3583.count-special-triplets.py) | Easy | Python |
+| 75 | 2116 | [Check if a Parentheses String Can Be Valid](src/exercises/2116.check-if-a-parentheses-string-can-be-valid.py) | Medium | Python |
+| 76 | 2294 | [Partition Array Such That Maximum Difference Is K](src/exercises/2294.partition-array-such-that-maximum-difference-is-k.py) | Medium | Python |
+| 77 | 3442 | [Maximum Difference Between Even and Odd Frequency I](src/exercises/3442.maximum-difference-between-even-and-odd-frequency-i.py) | Easy | Python |
+| 78 | 3582 | [Generate Tag for Video Caption](src/exercises/3582.generate-tag-for-video-caption.py) | Easy | Python |
+| 79 | 3583 | [Count Special Triplets](src/exercises/3583.count-special-triplets.py) | Easy | Python |
 
 ## 🛠️ Tools & Scripts
 - `create_missing_notes.sh`: Automatically creates missing note files for solved problems
